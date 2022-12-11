@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+}
+.word1 a{
+    color: white;
+    position: absolute;
+left: 450px;
+    top: 100px;
+}
+ ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+}
+.img1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    position: absolute;
+    left: 900Px;
+    top: 35px;
+}
+table{
+    height: 120px;
+}
+.nav ul li a{
+font-size: 30px;
+color: white;
+}
+.nav ul li a:active{
+    color: red;
+}
+.word1{
+    color: white;
+}
+.inf a{ 
+    margin-top: 80px;
+    margin-left: 100px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+.bg{
+position: absolute;
+left: 200px;
+top: 100px;
+}

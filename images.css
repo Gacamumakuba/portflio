@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+}
+.nav-bar {
+    position: absolute;
+right: 700px;
+}
+.nav-bar a{
+text-decoration: none;
+color: black;
+margin:50px;
+left: 300px;
+padding-inline: 40px;
+
+}
+.nav-bar button{
+    width: 1000px;
+    height: 300px;
+}
+.nav-bar home{
+    left: 500px;
+}

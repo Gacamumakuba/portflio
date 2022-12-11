@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+}
+.nav-bar {
+    position: absolute;
+right: 700px;
+}
+.nav-bar a{
+text-decoration: none;
+color: black;
+margin:50px;
+left: 300px;
+padding-inline: 40px;
+
+}
+.nav-bar button{
+    width: 1000px;
+    height: 300px;
+}
+.nav-bar home{
+    left: 500px;
+}
+.nav-bar button{
+    float:right;
+}
+.nav-bar .home-nav{
+    color: red;
+}
+.word{
+     width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.nav-bar2 button{
+    position: absolute;
+    bottom: 150px;
+    width: 100px;
+    height: 30px;
+  left: 750px;
+    top:350px;
+    border-radius: 10px;
+  background-color: red;
+
+}
+.main-picture{
+    position: absolute;
+    top: 100px;
+}
+
+#i{
+    position: absolute;
+    color: white;
+border-radius: 10px;
+    width: 150px;
+    height: 30px;
+  left: 720px;
+    top:300px;
+  background-color: black;
+
+}
+
+.btn{
+    position: absolute;
+    left: 900Px;
+    top: 35px;
+}
+ ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+}
+.home-nav{
+    color: red;
+}
+.img1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+ul li a:hover{
+  color: red;
+}
+.home-nav1{
+    color: white;
+}
+.about-nav2{
+    color: red;
+}
+.abouts{
+    color: red;
+} 
+.homes{
+    position:absolute ;
+    top: 150px;
+    left: 350px;
+    color: white;
+}
+.abouts{
+     position:absolute ;
+    top: 150px;
+    left: 450px;
+    color: red;
+}
+.doty{
+     position:absolute ;
+    top: 150px;
+    left: 420px;
+    color: white;
+}
+.ifoto{
+     position:absolute ;
+    top: 110px;
+    left: 420px;
+    color: white; 
+    align-content: ;
+}
+.ph1{
+     position:absolute ;
+    top: 50px;
+    left: -90px;
+    color: white; 
+    align-content: ;
+}
+.ph2{
+     position:absolute ;
+    top: 100px;
+    left: 510px;
+    color: white; 
+    align-content: ;
+}
+.ph3{
+    top: 200px;
+     position:absolute ;
+    left: 217px;
+    color: white; 
+    align-content: ;
+}
+.nav ul li a{
+    color: white;
+}
+.nav ul li a:active{
+    color: red;
+}
