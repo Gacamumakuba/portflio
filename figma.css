@@ -66,12 +66,6 @@ border-radius: 10px;
   background-color: black;
 
 }
-
-.btn{
-    position: absolute;
-    left: 900Px;
-    top: 35px;
-}
  ul li {
     list-style: none;
     text-decoration: none;
@@ -96,4 +90,7 @@ ul li a:hover{
 }
 .about-nav2{
     color: red;
+}
+*{
+    font-family: sans-serif;
 }

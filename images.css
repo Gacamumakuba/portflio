@@ -24,3 +24,6 @@ padding-inline: 40px;
 .nav-bar home{
     left: 500px;
 }
+*{
+    font-family: sans-serif;
+}
