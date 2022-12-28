@@ -4,6 +4,7 @@
 }
 body{
     background-color: black;
+    width: 100%;
 }
 .nav-bar {
     position: absolute;
@@ -30,7 +31,7 @@ padding-inline: 40px;
 .nav-bar .home-nav{
     color: red;
 }
-.word{
+/*.word{
 	 width: 100%;
   color: #fff;
   position: absolute;
@@ -41,7 +42,8 @@ padding-inline: 40px;
   font-size: 30px;
   opacity: 1;
   text-align: left;
-}
+  display: flex;
+}*/
 .nav-bar2 button{
     position: absolute;
     bottom: 150px;
@@ -56,18 +58,6 @@ padding-inline: 40px;
 .main-picture{
     position: absolute;
     top: 100px;
-}
-
-#i{
-    position: absolute;
-    color: white;
-border-radius: 10px;
-    width: 150px;
-    height: 30px;
-  left: 720px;
-    top:300px;
-  background-color: black;
-
 }
  ul li {
     list-style: none;
@@ -123,4 +113,12 @@ ul li a:hover{
 }
 *{
     font-family: sans-serif;
+}
+.word{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
 }

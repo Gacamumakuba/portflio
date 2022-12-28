@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    #menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #menu li {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f8f8f8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to our restaurant!</h1>
+
+  <h2>Menu</h2>
+  <ul id="menu">
+    <!-- menu items will be added here -->
+  </ul>
+
+  <script>
+    // An array of menu items
+    const menuItems = [
+      { name: "Pizza", price: 15.99 },
+      { name: "Salad", price: 10.99 },
+      { name: "Sandwich", price: 8.99 },
+      { name: "Soup", price: 6.99 }
+    ];
+
+    // Get a reference to the menu element
+    const menuEl = document.getElementById("menu");
+
+    // Loop through the menu items and add them to the menu
+    for (let i = 0; i < menuItems.length; i++) {
+      const item = menuItems[i];
+      const itemEl = document.createElement("li");
+      itemEl.textContent = `${item.name} - $${item.price}`;
+      menuEl.appendChild(itemEl);
+    }
+  </script>
+</body>
+</html>
