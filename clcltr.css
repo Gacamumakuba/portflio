@@ -1,21 +1,37 @@
-<style>
-  button {
-    margin: 10px;
-    padding: 10px;
-    font-size: 18px;
-    background-color: lightblue;
-    border: none;
-    border-radius: 5px;
-  }
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+}
 
-  #result {
-    font-size: 20px;
-    font-weight: bold;
-  }
-</style>
+#result {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 input {
   width: 120px;
   height: 30px;
   border: 2px solid black;
   font-size: 16px;
 }
+
+@media only screen and (max-width: 756px) {
+  button {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  button {
+    font-size: 14px;
+  }
+  input {
+    width: 100px;
+    font-size: 14px;
+  }
+}
+
