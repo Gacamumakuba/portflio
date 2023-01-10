@@ -7,15 +7,14 @@ body{
 }
 .nav-bar {
     position: absolute;
-right: 700px;
+    right: 700px;
 }
 .nav-bar a{
-text-decoration: none;
-color: black;
-margin:50px;
-left: 300px;
-padding-inline: 40px;
-
+    text-decoration: none;
+    color: black;
+    margin:50px;
+    left: 300px;
+    padding-inline: 40px;
 }
 .nav-bar button{
     width: 1000px;
@@ -47,11 +46,10 @@ padding-inline: 40px;
     bottom: 150px;
     width: 100px;
     height: 30px;
-  left: 750px;
+    left: 750px;
     top:350px;
     border-radius: 10px;
-  background-color: red;
-
+    background-color: red;
 }
 .main-picture{
     position: absolute;
@@ -61,13 +59,12 @@ padding-inline: 40px;
 #i{
     position: absolute;
     color: white;
-border-radius: 10px;
+    border-radius: 10px;
     width: 150px;
     height: 30px;
-  left: 720px;
+    left: 720px;
     top:300px;
-  background-color: black;
-
+    background-color: black;
 }
  ul li {
     list-style: none;
@@ -129,34 +126,80 @@ ul li a:hover{
     color: white; 
     align-content: ;
 }
-/*.ph2{
-     position:absolute ;
-    top: 100px;
-    left: 510px;
-    color: white; 
-    align-content: ;
-    font-size: 20px;
-}*/
-.ph3{
+.ph3 {
     top: 200px;
-     position:absolute ;
+    position: absolute;
     left: 80px;
-    color: white; 
+    color: white;
     align-content: ;
 }
-.nav ul li a{
+.nav ul li a {
     color: white;
 }
-.nav ul li a:active{
+.nav ul li a:active {
     color: red;
 }
-*{
+* {
     font-family: sans-serif;
 }
-.it{
+.it {
     display: flex;
 }
-.ph2{
+.ph2 {
     position: absolute;
     left: 300px;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 756px) {
+    .nav-bar {
+        right: 50px;
+    }
+    .nav-bar a {
+        left: 50px;
+    }
+    .nav-bar button {
+        width: 100%;
+        height: 50px;
+    }
+    .nav-bar home {
+        left: 0px;
+    }
+    .nav-bar2 button {
+        left: 550px;
+        top: 250px;
+    }
+    .main-picture {
+        top: 300px;
+    }
+    #i {
+        left: 450px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .nav-bar {
+        right: 0px;
+    }
+    .nav-bar a {
+        left: 0px;
+    }
+    .nav-bar button {
+        width: 100%;
+        height: 50px;
+    }
+    .nav-bar home {
+        left: 0px;
+    }
+    .nav-bar2 button {
+        left: 250px;
+        top: 350px;
+    }
+    .main-picture {
+        top: 400px;
+    }
+    #i {
+        left: 150px;
+    }
+}
+
