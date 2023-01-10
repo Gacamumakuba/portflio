@@ -1,22 +1,24 @@
 *{
     margin: 0;
-    
 }
 body{
     background-color: black;
 }
+
 .word1 a{
     color: white;
     position: absolute;
-left: 450px;
+    left: 450px;
     top: 100px;
 }
- ul li {
+
+ul li {
     list-style: none;
     text-decoration: none;
     padding: 30px;
     display: inline-block;
 }
+
 .img1{
     position: absolute;
     top: 20px;
@@ -24,19 +26,24 @@ left: 450px;
     width: 50px;
     height: 50px;
 }
+
 table{
     height: 120px;
 }
+
 .nav ul li a{
-font-size: 20px;
-color: white;
+    font-size: 20px;
+    color: white;
 }
+
 .nav ul li a:active{
     color: red;
 }
+
 .word1{
     color: white;
 }
+
 .inf a{ 
     margin-top: 80px;
     margin-left: 100px;
@@ -44,11 +51,67 @@ color: white;
     text-decoration: none;
     color: white;
 }
+
 .bg{
-position: absolute;
-left: 200px;
-top: 100px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
 }
+
 *{
     font-family: sans-serif;
+}
+
+@media only screen and (max-width: 756px) {
+    .word1 a{
+    left: 250px;
+    top:50px;
+    }
+    .img1{
+        top: 10px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    table{
+        height: 90px;
+    }
+    .nav ul li a{
+        font-size: 16px;
+    }
+    .inf a{ 
+        margin-top: 60px;
+        margin-left: 70px;
+    }
+    .bg{
+    left: 100px;
+    top:50px;
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .word1 a{
+    left: 150px;
+    top: 20px;
+    }
+    .img1{
+        top: 10px;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    table{
+        height: 60px;
+    }
+    .nav ul li a{
+        font-size: 12px;
+    }
+    .inf a{ 
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .bg{
+    left: 50px;
+    top:20px;
+    }
 }
