@@ -50,3 +50,27 @@ button {
   font-size: 18px;
   margin-left: 20px;
 }
+@media only screen and (max-width: 756px) {
+  input {
+    width: 100%;
+  }
+  .weather-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  label {
+    font-size: 14px;
+  }
+  input {
+    font-size: 14px;
+  }
+  button {
+    font-size: 14px;
+  }
+  .weather-text {
+    font-size: 14px;
+  }
+}
